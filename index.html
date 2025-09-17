@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>就活用ポートフォリオ | 山田大輝</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="hero" id="top">
+    <div class="hero__overlay"></div>
+    <div class="hero__content container">
+      <p class="hero__tag">就職活動用プロフィール</p>
+      <h1 class="hero__title">山田 大輝</h1>
+      <p class="hero__subtitle">課題解決を好むフルスタック志向エンジニア</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#contact">面談を依頼する</a>
+        <a class="btn btn--ghost" href="assets/resume_yamada.pdf" target="_blank" rel="noopener">履歴書を見る</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+    </div>
+  </header>
+
+  <nav class="nav" aria-label="主要ナビゲーション">
+    <div class="container nav__inner">
+      <a class="nav__logo" href="#top">Daiki Yamada</a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__links" id="nav-menu">
+        <li><a href="#about">自己紹介</a></li>
+        <li><a href="#strengths">強み</a></li>
+        <li><a href="#skills">スキル</a></li>
+        <li><a href="#projects">プロジェクト</a></li>
+        <li><a href="#experience">経歴</a></li>
+        <li><a href="#contact">連絡先</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section" id="about">
+      <div class="container section__grid section__grid--reverse">
+        <div class="card">
+          <h2 class="section__title">自己紹介</h2>
+          <p>京都大学情報学研究科修士課程にて人の行動を解析する機械学習モデルを研究しています。大学では実社会の課題を技術で解決する経験を積み、学部時代から継続してスタートアップや企業での開発インターンにも携わってきました。</p>
+          <p>専門性を活かしながら、ビジネス観点を持ったプロダクトづくりに挑戦したく、貴社を志望しています。ユーザー課題の理解から実装・運用まで一貫して取り組めるフルスタック志向が強みです。</p>
+        </div>
+        <div class="profile-card">
+          <div class="profile-card__image" role="img" aria-label="山田大輝のプロフィール写真"></div>
+          <ul class="profile-card__list">
+            <li><span>生年月日</span>1999年7月12日</li>
+            <li><span>現住所</span>東京都世田谷区</li>
+            <li><span>趣味</span>トライアスロン、旅先での写真撮影</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--accent" id="strengths">
+      <div class="container">
+        <h2 class="section__title">強み</h2>
+        <div class="strengths">
+          <article class="strength">
+            <h3>仮説検証の推進力</h3>
+            <p>研究で培った統計的思考を応用し、プロダクト改善のための指標設計と検証をリード。SaaS 企業の長期インターンでは、ユーザー行動データから利用定着のボトルネックを特定し、チャーン率を 18% 改善しました。</p>
+          </article>
+          <article class="strength">
+            <h3>フルスタック開発力</h3>
+            <p>フロントエンドからバックエンド、インフラ（GCP）まで自走。スタートアップでの新規事業開発では、PoC プロダクトを 3 ヶ月で立ち上げ、顧客ヒアリングと開発を同時に進めるスプリント体制を構築しました。</p>
+          </article>
+          <article class="strength">
+            <h3>チームリーダーシップ</h3>
+            <p>大学院の共同研究では 5 名のチームを牽引し、業界パートナーとの調整や進捗管理を担当。開発のプロセス改善を図り、リリースまでのリードタイムを 30% 短縮しました。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section__title">スキルセット</h2>
+        <div class="skills">
+          <div class="skill">
+            <h3>言語</h3>
+            <ul>
+              <li>TypeScript / JavaScript</li>
+              <li>Python (FastAPI, PyTorch)</li>
+              <li>Go, Kotlin</li>
+            </ul>
+          </div>
+          <div class="skill">
+            <h3>フレームワーク / ツール</h3>
+            <ul>
+              <li>React, Next.js, Vue</li>
+              <li>Node.js, Express</li>
+              <li>GCP, Firebase, Docker</li>
+            </ul>
+          </div>
+          <div class="skill">
+            <h3>その他</h3>
+            <ul>
+              <li>プロジェクトマネジメント (Scrum, OKR)</li>
+              <li>データ分析 (BigQuery, dbt)</li>
+              <li>UX リサーチ、ユーザビリティテスト</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section__title">プロジェクト</h2>
+        <div class="projects">
+          <article class="project">
+            <div class="project__badge">#1</div>
+            <h3>SmartOps Analytics</h3>
+            <p class="project__meta">2023.04 - 2024.02 / BtoB SaaS インターン</p>
+            <p>製造業の現場改善を支援するダッシュボードの新機能開発を担当。フロントでは React + TypeScript、バックエンドは FastAPI を用い、データ可視化のためのチャートコンポーネントを設計。KPI のアラート機能を導入し、導入企業の活用率が 160% に向上。</p>
+            <ul>
+              <li>役割: フルスタックエンジニア</li>
+              <li>チーム規模: 6 名</li>
+              <li>成果: 提案したデータモデルが本番採用され、運用フローを最適化</li>
+            </ul>
+          </article>
+          <article class="project">
+            <div class="project__badge">#2</div>
+            <h3>Campus Runner</h3>
+            <p class="project__meta">2022.09 - 2023.03 / 学内ハッカソン最優秀賞</p>
+            <p>大学内の移動計画を最適化するモバイルアプリを Flutter で開発。キャンパスの混雑度予測モデルをチームで構築し、アプリに組み込み。ローンチから 2 週間で 3,000 ダウンロードを達成。</p>
+            <ul>
+              <li>役割: プロダクトオーナー / エンジニア</li>
+              <li>チーム規模: 4 名</li>
+              <li>成果: 研究室・大学広報で紹介され、共同研究に発展</li>
+            </ul>
+          </article>
+          <article class="project">
+            <div class="project__badge">#3</div>
+            <h3>行動予測モデルの研究</h3>
+            <p class="project__meta">2021.04 - 現在 / 京都大学大学院</p>
+            <p>深層学習を用いた人流解析モデルを研究。人流データから行動パターンを分類し、都市設計への示唆を得るアルゴリズムを開発。国際学会 IEEE BigData で論文採択。</p>
+            <ul>
+              <li>役割: リードリサーチャー</li>
+              <li>成果: モデルの精度を従来手法より 12% 向上</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--timeline" id="experience">
+      <div class="container">
+        <h2 class="section__title">経歴</h2>
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <span class="timeline__period">2024.04 - 現在</span>
+              <h3>株式会社 スタートリンク | プロダクト開発インターン</h3>
+              <p>データ基盤の刷新プロジェクトに参加し、ETL パイプラインの再設計を担当。チームの SQL 運用ルールを整備し、データ取得時間を 40% 短縮。</p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <span class="timeline__period">2023.04 - 2024.03</span>
+              <h3>SmartOps 株式会社 | フルスタックエンジニア（長期インターン）</h3>
+              <p>ダッシュボード製品の新機能開発とアーキテクチャ改善を主導。プロダクト利用データの分析基盤を整備し、営業部門との連携を強化。</p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <span class="timeline__period">2021.04 - 現在</span>
+              <h3>京都大学大学院 情報学研究科 | 修士課程</h3>
+              <p>「都市行動分析のための機械学習モデル」に関する研究に従事。データ収集から論文執筆まで一貫して遂行。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contact">
+      <div class="container contact">
+        <div class="contact__info">
+          <h2 class="section__title">連絡先</h2>
+          <p>カジュアル面談・開発相談は下記よりお気軽にお問い合わせください。</p>
+          <ul>
+            <li><span>メール:</span> daiki.yamada@example.com</li>
+            <li><span>GitHub:</span> <a href="https://github.com/daiki-yamada" target="_blank" rel="noopener">daiki-yamada</a></li>
+            <li><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/daiki-yamada" target="_blank" rel="noopener">in/daiki-yamada</a></li>
+          </ul>
+        </div>
+        <form class="contact__form" aria-label="お問い合わせフォーム">
+          <label for="name">お名前</label>
+          <input type="text" id="name" name="name" placeholder="例: 田中 太郎" required>
+
+          <label for="email">メールアドレス</label>
+          <input type="email" id="email" name="email" placeholder="例: recruit@example.com" required>
+
+          <label for="message">メッセージ</label>
+          <textarea id="message" name="message" rows="5" placeholder="面談希望日やご相談内容をご記入ください" required></textarea>
+
+          <button type="submit" class="btn btn--primary">送信する</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2024 Daiki Yamada. All Rights Reserved.</p>
+      <a href="#top" class="footer__top">トップへ戻る</a>
+    </div>
+  </footer>
+
+  <script src="assets/main.js" defer></script>
+</body>
+</html>
